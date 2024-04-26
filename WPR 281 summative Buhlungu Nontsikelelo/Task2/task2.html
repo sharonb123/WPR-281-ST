@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Class of Dummies </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    
+    <form id="marksForm">
+      <div>
+        <label for="student1">Student 1:</label>
+        <input type="number" id="student1Maths" placeholder="Maths marks" required>
+        <input type="number" id="student1English" placeholder="English marks" required>
+        <input type="number" id="student1History" placeholder="History marks" required>
+      </div>
+
+      <div>
+        <label for="student2">Student 2:</label>
+        <input type="number" id="student2Maths" placeholder="Maths marks" required>
+        <input type="number" id="student2English" placeholder="English marks" required>
+        <input type="number" id="student2History" placeholder="History marks" required>
+      </div>
+
+      <div>
+        <label for="student3">Student 3:</label>
+        <input type="number" id="student3Maths" placeholder="Maths marks" required>
+        <input type="number" id="student3English" placeholder="English marks" required>
+        <input type="number" id="student3History" placeholder="History marks" required>
+      </div>
+
+      <button type="button" id="addButton" onclick="ADD()">ADD</button>
+
+      <button type="button" id="averageButton" onclick="AVERAGE()">AVERAGE</button>
+    </form>
+    <div id="results">
+      <!-- Marks and average will be displayed here -->
+
+    </div>
+  </div>
+
+  <script src="task2.js"></script>
+ 
+</body>
+</html>
